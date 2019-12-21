@@ -2,4 +2,4 @@ FROM gitpod/workspace-full
 
 USER gitpod
 
-RUN sdk install kotlin
+RUN curl -s https://get.sdkman.io | bash; sdk install kotlin
