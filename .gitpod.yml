@@ -1,6 +1,7 @@
 image:
   file: .gitpod.Dockerfile
-
+tasks:
+  - command: kotlinc hello.kt && kotlin HelloKt
 vscode:
   extensions:
     - mathiasfrohlich.Kotlin@1.7.0:9xQZtwTUg4bdXHCMyxM7vQ==
